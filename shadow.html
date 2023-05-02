@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shadow</title>
+    <style>
+        *::selection{
+            background: #5544aa;
+        }
+        h1{
+            position: relative;
+            box-shadow: 0 5px 10px 2px red inset,
+            0 40px 20px 2px #27d214 inset;
+        }
+
+        h2 {   font-weight: 900;
+        }
+        h2:nth-of-type(odd) {
+           color: #27d214 ;
+        }
+        .text{
+            color: chocolate;
+        }
+
+        .text-1 {
+            text-shadow: .1em .1em rgba(0, 0, 0, 0.3);
+        }
+
+        .text-2 {
+            text-shadow: .1em .1em .2em rgba(0, 0, 0, 0.6);
+        }
+
+        .text-3 {
+            color: white;   text-shadow: 0.075em 0.08em 0.1em rgba(0, 0, 0, 1);
+        }
+
+        .text-4 {
+            text-shadow: 0.2em 0.5em 0.1em #ddd, -0.3em 0.1em 0.1em #aaa, 0.4em -0.3em 0.1em #888;
+        }
+
+        .text-5 {
+            color: #54a;   text-shadow: 0 0 0.5em #87F, 0 0 0.5em #87F, 0 0 0.5em #87F;
+        }
+
+        .text-6 {
+            color: #eee;   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+        }
+        .text-7 {
+            color: transparent;   text-shadow: 0 0 .1em rgba(0, 0, 0, 0.2), 0 0 .2em rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+<h1>Hello world!</h1>
+
+<a href="http://localhost:63342/lesson8/index.html?_ijt=74mri2fl65no7pgbqj31rfvne5&_ij_reload=RELOAD_ON_SAVE">Link</a>
+<h2 class="text text-1">Simple Sharp Text Shadow</h2>
+<h2 class="text text-2">Fuzzy Text Shadow</h2>
+<h2 class="text text-3">Text Shadow To Improve Readbility</h2>
+<h2 class="text text-4">Multiple Shadows</h2>
+<h2 class="text text-5">Neon Effect</h2>
+<h2 class="text text-6">Shadow As Text Outline</h2>
+<h2 class="text text-7">Blurred Text</h2>
+
+</body>
+</html>
