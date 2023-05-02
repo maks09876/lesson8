@@ -1,0 +1,166 @@
+@import "reset.css";
+body{
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Vollkorn', serif;
+    color: #333333;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montcerrat', sans-serif;
+}
+
+h1{
+    font-size: 44px;
+    line-height: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 28px;
+
+}
+
+h2{
+    font-size: 23px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+
+
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.container-wrapper {
+    padding: 0 10px;
+}
+.d-flex{
+    display: flex;
+}
+header{
+    padding: 18px 0;
+}
+
+header .container-wrapper {
+    align-items: center;
+    justify-content: space-between;
+}
+header nav a{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #404040;
+}
+header nav {
+    gap: 34px;
+}
+.sec-1{
+    background-image: url("../img/imma.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 105px 0 100px;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+}
+
+.sec-1 p{
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    opacity:  0.81;
+}
+.icon{
+    position: absolute;
+    bottom: -26px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.line{
+    width: 80px;
+    height: 2px;
+    margin: 0 auto 25px;
+    background: #FFFFFF;
+
+}
+.sec-2{
+    padding: 60px 0;
+    background: #FEFEC9;
+}
+.sec-2 p{
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #47474F;
+    margin-bottom: 40px;
+}
+.btn-main{
+    color: #47474F;
+    background: transparent;
+    border: 1px solid #47474F ;
+    border-bottom-width: 2px;
+    padding: 13px 34px 20px;
+    display: block;
+    margin: 0 auto;
+}
+.btn-secondary{
+    color: #47474F;
+}
+.sec-3{
+    background:  #E5E5E5;
+
+}
+.main{
+
+}
+.sec-3 h1{
+    font-size: 23px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+}
+.sec-3 img {
+    padding: 50px 86px 50px;
+
+}
+.nav h2{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 70px;
+
+}
+
+.h2{
+
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+
+}
+.sec-3 p{
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 40px;
+}
+.style p{
+    padding-top: 20px;
+    padding-bottom: 75px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 0 ;
+}
+
