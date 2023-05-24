@@ -9,16 +9,12 @@ body{
 
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6 {
     font-family: 'Montcerrat', sans-serif;
 }
-<<<<<<< HEAD
-=======
-button, input[type='button']{
+button, input[type='button'] {
     cursor: pointer;
 }
->>>>>>> b9b7540 ( commit)
-
 h1{
     font-size: 44px;
     line-height: 55px;
@@ -108,7 +104,7 @@ header nav {
     color: #47474F;
     margin-bottom: 40px;
 }
-<<<<<<< HEAD
+
 .btn-main{
     color: #47474F;
     background: transparent;
@@ -125,9 +121,7 @@ header nav {
     background:  #E5E5E5;
 
 }
-.main{
 
-=======
 .btn{
     padding: 13px 34px 20px;
     display: block;
@@ -225,7 +219,7 @@ header nav {
     color: #333333;
 
 }
-<<<<<<< HEAD
+
 .sec-3 p{
     font-size: 15px;
     line-height: 22px;
@@ -241,7 +235,7 @@ header nav {
     margin-bottom: 0 ;
 }
 
-=======
+
 .sec-4 p{
     font-size: 14px;
     line-height: 20px;
@@ -422,4 +416,4 @@ a:hover:after{
         height: 300px;
     }
 }
->>>>>>> b9b7540 ( commit)
+
